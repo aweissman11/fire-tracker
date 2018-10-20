@@ -1,0 +1,10 @@
+.report-form {
+  position: absolute;
+  top: 20vh;
+  left: 30vw;
+  height: 60vh;
+  width: 40vw;
+  z-index: 1000;
+  background: rgba(220, 20, 20, 1);
+  border-radius: 20px;
+}

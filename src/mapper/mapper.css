@@ -1,0 +1,32 @@
+.mapboxgl-canvas-container.mapboxgl-interactive.mapboxgl-touch-drag-pan.mapboxgl-touch-zoom-rotate {
+  height: 100%;
+  width: max-content;
+}
+
+.fire-img {
+  width: 25px;
+
+}
+
+.fire-img:hover {
+  transform: scale(1.05);
+}
+
+.outer-div {
+  background: rgba(220, 40, 40, .5);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.marker-div {
+  background: rgba(100, 100, 100, .5);
+  border-radius: 100%;
+  align-self: center;
+}
+
+.marker-text {
+  line-height: 50px;
+}
+
