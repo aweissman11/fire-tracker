@@ -4,7 +4,7 @@ class Reporter extends Component {
   render() {
     return (
       <div>
-        <button>Report a Fire</button>
+        <button onClick={this.props.reportSomething}>Report a Fire</button>
       </div>
     )
   }
