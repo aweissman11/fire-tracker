@@ -4,7 +4,7 @@ class Reporter extends Component {
   render() {
     return (
       <div>
-        <h1>I am the reporter!!!</h1>
+        <button>Report a Fire</button>
       </div>
     )
   }
