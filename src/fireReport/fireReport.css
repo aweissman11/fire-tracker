@@ -1,10 +1,18 @@
 .report-form {
   position: absolute;
   top: 20vh;
-  left: 30vw;
+  left: 20vw;
   height: 60vh;
-  width: 40vw;
+  width: 60vw;
   z-index: 1000;
-  background: rgba(220, 20, 20, 1);
+  background: rgba(252, 61, 33, 1);
   border-radius: 20px;
+}
+
+.fire-btn {
+  background: rgba(11, 61, 145, 1);
+  border-radius: 10px;
+  color: rgba(252, 61, 33, 1);
+  height: 30px;
+  width: 150px;
 }
