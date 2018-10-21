@@ -1,0 +1,12 @@
+.location-data {
+  margin: auto;
+  font-size: .8em;
+  color: white;
+  text-align: center;
+  height: max-content;
+  height: 80%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}

@@ -35,11 +35,18 @@ class Mapper extends Component {
   }
   
   componentDidMount() {
+    // const response = await fetch('heroku.sure-fire/api/v1/fires?reno,tx');
+    // const data = await response.json();
+
+
+
+
     this.setState({
       outerDiameter: (this.state.mapZoom ** 2) * this.state.fireRadius,
       innerDiameter: ((this.state.mapZoom ** 2) / 2) * this.state.fireRadius
     })
   }
+
 
   zooming = (e) => {
     const nowZoom = e.scrollZoom._map.transform.zoom;
@@ -91,7 +98,7 @@ markers = () => {
         <Map
           style="mapbox://styles/mapbox/streets-v9"
           containerStyle={{
-            height: "97vh",
+            height: "100vh",
             width: "100vw",
           }}
           center={this.state.mapCenter}
@@ -102,7 +109,7 @@ markers = () => {
             this.zooming
           }
         >
-          <ZoomControl />
+          <ZoomControl position='bottom-left'/>
           <ScaleControl />
           {
             this.markers()
@@ -114,4 +121,6 @@ markers = () => {
 }
 
 export default Mapper;
+
+
 

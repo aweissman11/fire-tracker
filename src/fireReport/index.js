@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 
+import GeoLocation from '../geoLocation';
 import './fireReport.css';
 
 class FireReport extends Component {
   render() {
     return (
       <form className='report-form'>
-        <input placeholder='Location'></input>
-        <input placeholder='Severity'></input>
-        <button>Report Fire</button>
+        <br />
+        <GeoLocation />
+        <button className='fire-btn'>Report Fire</button>
       </form>
     )
   }
